@@ -179,9 +179,11 @@ Invista e engaje seu colaborador. Uma universidade corporativa com cursos própr
   >
     {/* Texto ocupando toda a div */}
     <div className="text-center md:text-left max-w-full">
-      <h2 className="mb-2 text-2xl font-bold text-white">Treinamentos corporativos nos formatos:</h2>
+      <h2 className="mb-2 text-2xl font-bold text-white">Hubfy Comunidade</h2>
       <p className="mb-5 text-justify text-lg text-white">
-        Presencial ou Online. Ao vivo ou Gravado. Personalizado ou Plataformado.
+      Troque conhecimentos e experiências com seus pares. Cadastre sua empresa e crie uma comunidade para trocar novidades e vivência.
+
+Evolução do mercado. Mudanças. Conheça novas ideia e novos colaboradores. Entre e participe.
       </p>
       <button className="rounded-full bg-[#FE6C16] px-6 py-2 text-white">Agende uma conversa</button>
     </div>
