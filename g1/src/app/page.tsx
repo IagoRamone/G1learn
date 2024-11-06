@@ -17,54 +17,70 @@ function Home() {
     <div className="relative flex min-h-[75vh] items-center justify-center bg-white">
       {/* Div principal com conteúdo e imagem de fundo */}
       <div
-        className="mt-40 w-full max-w-7xl rounded-lg bg-cover bg-center p-10 shadow-lg" // Ajusta a posição vertical da div
+        className="mt-20 w-full max-w-7xl rounded-lg bg-cover bg-center p-10 shadow-lg"
         style={{
           backgroundImage: `url('/img/secaoprincipal.png')`,
         }}
       >
-        <h1 className="text-3xl font-bold text-white">Dinamismo Corporativo</h1>
-        <p className="mt-4 text-lg text-white">
-          Domine completamente o treinamento de sua empresa. Um espaço que só quem precisa, tem acesso.
-        </p>
+        <div className="text-left max-w-2xl">
+          <h1 className="text-3xl font-bold text-white">Dinamismo Corporativo</h1>
+          <p className="mt-4 text-lg text-white text-justify">
+            Domine completamente o treinamento de sua empresa. Um espaço que só quem precisa, tem acesso.
+          </p>
 
-        <p className="mt-2 text-lg text-white">
-          Suba pequenos treinamentos internos. Convoque uma equipe para uma live. Não dependa de ninguém para isso.
-        </p>
+          <p className="mt-2 text-lg text-white text-justify">
+            Suba pequenos treinamentos internos. Convoque uma equipe para uma live. Não dependa de ninguém para isso.
+          </p>
 
-        <a href="#" className="mt-6 inline-block text-blue-400">
-          Conheça nossa proposta.
-        </a>
+          <p className="mt-6  text-lg inline-block text-white">
+            Conheça nossa proposta.
+          </p>
+        </div>
 
         {/* Imagens Estúdio e Universidade Corporativa lado a lado */}
-        <div className="mt-10 flex justify-start space-x-6">
+        <div className="ml-40 mt-10 flex space-x-6">
+          {/* Card Estúdio */}
           <div className="flex flex-col items-center">
             <div className="flex h-24 w-24 items-center justify-center rounded-full bg-orange-500">
-              <span className="text-center text-white">Estúdio</span>
+              <span
+                className="text-white text-center w-full h-full flex items-center justify-center"
+                style={{
+                  backgroundImage: `url('/img/fundocardla.png')`, 
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  borderRadius: '50%',
+                }}
+              >
+                Estúdio
+              </span>
             </div>
-            <p className="mt-2 text-center text-sm text-white">
-              Um espaço preparado para atender sua empresa. Podcast, gravação de cursos e entrevistas.
-            </p>
           </div>
 
+          {/* Card Universidade Corporativa */}
           <div className="flex flex-col items-center">
-            <div className="flex h-24 w-24 items-center justify-center rounded-lg bg-yellow-500">
-              <span className="text-center text-white">Universidade Corporativa</span>
+            <div className="flex h-24 w-40 items-center justify-center rounded-lg bg-yellow-500">
+              <span
+                className="text-white text-center w-full h-full flex items-center justify-center"
+                style={{
+                  backgroundImage: `url('/img/background')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  borderRadius: '8px', 
+                }}
+              >
+                Universidade Corporativa
+              </span>
             </div>
-            <p className="mt-2 text-center text-sm text-white">
-              Produzimos e hospedamos seu curso.
-            </p>
           </div>
         </div>
       </div>
 
-      {/* Imagem da mão com celular */}
-      <div className="absolute bottom-0 right-0 mb-[-40px] mr-[-20px]">
+      <div className="absolute bottom-0 right-40 mb-[-40px] mr-[-20px]">
         <img src="/img/secaoprincipal/celular.png" alt="Mão segurando celular" className="w-80" />
       </div>
     </div>
   );
 }
-
 
 
 
@@ -104,40 +120,41 @@ function Sectionfour() {
 
 
         {/* Seção 1 */}
-        <section className="bg-white py-12">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Experiência Comprovada</h2>
-        <p className="text-gray-600 mb-8">
-          São mais de dez anos atendendo ao mercado educacional e corporativo. Essa experiência nos faz mudar o tempo todo, para acompanhar todos os novos paradigmas dos tempos atuais.
-        </p>
-        <p className="text-gray-600 mb-12">
-          Queremos ajudar a preparar e unir sua equipe e transformá-los no grande diferencial do seu negócio. Venha para a CILearn.
-        </p>
+<section className="bg-white py-12">
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-3xl font-bold text-gray-800 mb-4">Experiência Comprovada</h2>
+    <p className="text-gray-600 mb-8">
+      São mais de dez anos atendendo ao mercado educacional e corporativo. Essa experiência nos faz mudar o tempo todo, para acompanhar todos os novos paradigmas dos tempos atuais.
+    </p>
+    <p className="text-gray-600 mb-12">
+      Queremos ajudar a preparar e unir sua equipe e transformá-los no grande diferencial do seu negócio. Venha para a CILearn.
+    </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1: Alunos */}
-          <div className="bg-blue-500 text-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-semibold">72.1K</div>
-            <div className="mt-2">Alunos</div>
-            <p className="mt-2 text-sm">Que em alguma etapa utilizam nossa plataforma</p>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-yellow-500 text-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-semibold">363.9K</div>
-            <div className="mt-2">Horas de vídeo aulas gravadas</div>
-            <p className="mt-2 text-sm">Conteúdo de vídeo aulas desenvolvido internamente</p>
-          </div>
-
-          {/* Card 3: Cursos */}
-          <div className="bg-orange-500 text-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-semibold">190+</div>
-            <div className="mt-2">Cursos</div>
-            <p className="mt-2 text-sm">Totalmente desenvolvidos em nossos laboratórios</p>
-          </div>
-        </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Card 1: Alunos */}
+      <div className="text-white p-6 rounded-lg shadow-md" style={{ backgroundImage: "url('/img/fundo_azul.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="text-4xl font-semibold">72.1K</div>
+        <div className="mt-2">Alunos</div>
+        <p className="mt-2 text-sm">Que em alguma etapa utilizam nossa plataforma</p>
       </div>
-    </section>
+
+      {/* Card 2 */}
+      <div className="text-white p-6 rounded-lg shadow-md" style={{ backgroundImage: "url('/img/background_amarelo.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="text-4xl font-semibold">363.9K</div>
+        <div className="mt-2">Horas de vídeo aulas gravadas</div>
+        <p className="mt-2 text-sm">Conteúdo de vídeo aulas desenvolvido internamente</p>
+      </div>
+
+      {/* Card 3: Cursos */}
+      <div className="text-white p-6 rounded-lg shadow-md" style={{ backgroundImage: "url('/img/fundocardla.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="text-4xl font-semibold">190+</div>
+        <div className="mt-2">Cursos</div>
+        <p className="mt-2 text-sm">Totalmente desenvolvidos em nossos laboratórios</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* Seção 2 */}
         <div className='flex flex-col items-center gap-6 md:flex-row'>
@@ -150,7 +167,7 @@ Invista e engaje seu colaborador. Uma universidade corporativa com cursos própr
             </p>
             <button className='rounded-full bg-blue-500 px-6 py-2 text-white'>Saiba mais</button>
           </div>
-          <img src='/img/corporativo.png' alt='Área exclusiva para Podcasts' className='order-1 w-full rounded-lg md:order-2 md:w-1/2' />
+          <img src='/img/conhecimento_de_engajamento.png' alt='Área exclusiva para Podcasts' className='order-1 w-full rounded-lg md:order-2 md:w-1/2' />
         </div>
 
         {/* Seção 3 */}
