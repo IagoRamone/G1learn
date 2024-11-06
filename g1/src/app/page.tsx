@@ -347,18 +347,17 @@ function SectionSix() {
       <div className="bg-white p-8 rounded-lg shadow-md">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-center">
           <img src="/clients/estacio-logo.png" alt="Estácio" className="h-12 mx-auto" />
-          <img src="/clients/estacio-logo.png" alt="Anoreg" className="h-12 mx-auto" />
+          <img src="/img/anoreg.png" alt="Anoreg" className="h-12 mx-auto" />
           <img src="/clients/oabrj.png" alt="OAB" className="h-12 mx-auto" />
-          <img src="/clients/.png" alt="White Martins" className="h-12 mx-auto" />
+          <img src="/img/whitemartins.png" alt="White Martins" className="h-12 mx-auto" />
           <img src="/clients/uni-candido.png" alt="Candido Mendes" className="h-12 mx-auto" />
-          <img src="/images/iqcs.png" alt="IQCS" className="h-12 mx-auto" />
-          <img src="/images/karoon_energy.png" alt="Karoon Energy" className="h-12 mx-auto" />
-          <img src="/images/cma_cgm.png" alt="CMA CGM" className="h-12 mx-auto" />
-          <img src="/images/bw_energy.png" alt="BW Energy" className="h-12 mx-auto" />
-          <img src="/images/petrobras.png" alt="Petrobras" className="h-12 mx-auto" />
-          <img src="/images/vertix.png" alt="Vertix Telecom" className="h-12 mx-auto" />
-          <img src="/images/hoffmann.png" alt="Hoffmann" className="h-12 mx-auto" />
-          <img src="/images/sh.png" alt="SH" className="h-12 mx-auto" />
+          <img src="/clients/iqcs.png" alt="IQCS" className="h-12 mx-auto" />
+          <img src="/clients/karonenergy.png" alt="Karoon Energy" className="h-12 mx-auto" />
+          <img src="/clients/cma.png" alt="CMA CGM" className="h-12 mx-auto" />
+          <img src="/clients/bwenergy.png" alt="BW Energy" className="h-12 mx-auto" />
+          <img src="/clients/petrobras.png" alt="Petrobras" className="h-12 mx-auto" />
+          <img src="/clients/hoffmann.png" alt="Hoffmann" className="h-12 mx-auto" />
+          <img src="/clients/vertix.png" alt="SH" className="h-12 mx-auto" />
         </div>
       </div>
     </div>
